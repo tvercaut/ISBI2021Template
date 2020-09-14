@@ -5,6 +5,11 @@
 \documentclass{article}
 \usepackage{spconf,amsmath,graphicx}
 
+% It's fine to compress itemized lists if you used them in the
+% manuscript
+\usepackage{enumitem}
+\setlist{nosep, leftmargin=14pt}
+
 \usepackage{mwe} % to get dummy images
 
 % Example definitions.
@@ -248,6 +253,24 @@ investigators whose Institutions do not have formal ethics review
 committees, the principles  outlined in the Helsinki Declaration of
 1975, as revised in 2000, should be followed.
 
+Reporting on compliance with ethical standards is required
+(irrespective of whether ethical approval was needed for the study) in
+the paper. Authors are responsible for correctness of the statements
+provided in the manuscript. Examples of appropriate statements
+include:
+\begin{itemize}
+  \item ``This is a numerical simulation study for which no ethical
+    approval was required.'' 
+  \item ``This research study was conducted retrospectively using
+    human subject data made available in open access by (Source
+    information). Ethical approval was not required as confirmed by
+    the license attached with the open access data.''
+    \item ``This study was performed in line with the principles of
+      the Declaration of Helsinki. Approval was granted by the Ethics
+      Committee of University B (Date.../No. ...).''
+\end{itemize}
+
+
 \section{Acknowledgments}
 \label{sec:acknowledgments}
 
@@ -259,7 +282,20 @@ support for the work as well as any personal or financial or
 employment relationship between any author and the sources of
 financial support for the work.
 
-Other types of acknowledgements can also be listed here.
+Other types of acknowledgements can also be listed in this section.
+
+Reporting on real or potential conflicts of interests, or the absence
+thereof, is required in the paper. Authors are responsible for
+correctness of the statements provided in the manuscript. Examples of
+appropriate statements include:
+\begin{itemize}
+  \item ``No funding was received for conducting this study. The
+    authors have no relevant financial or non-financial interests to
+    disclose.'' 
+  \item ``This work was supported by […] (Grant numbers) and […]. Author X has served on advisory boards for Company Y.''
+  \item ``Author X is partially funded by Y. Author Z is a Founder and
+    Director for Company C.''
+\end{itemize}
 
 % References should be produced using the bibtex program from suitable
 % BiBTeX files (here: strings, refs, manuals). The IEEEbib.bst bibliography
